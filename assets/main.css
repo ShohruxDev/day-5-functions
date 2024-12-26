@@ -1,0 +1,443 @@
+.dashboard {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 126vh;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(249, 249, 249);
+}
+
+.das {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dah {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(249, 250, 255);
+}
+
+.sad {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.calc {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.cal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.cal-0 {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 10px;
+  background-color: rgb(81, 69, 158);
+}
+.cal-0 img {
+  width: 70%;
+}
+
+.pro {
+  width: 90%;
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 34vh;
+  border-radius: 13px;
+  background-color: rgb(207, 200, 255);
+}
+.pro img {
+  width: 90%;
+}
+.pro button {
+  width: 70%;
+  height: 15%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: rgb(95, 117, 238);
+}
+.pro button:hover {
+  background-color: rgb(247, 241, 241);
+}
+
+.ser {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  height: 4%;
+  margin-top: 20px;
+  background-color: rgb(247, 248, 250);
+  border-radius: 30px;
+}
+
+.serr {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+.serr p {
+  color: rgb(123, 123, 123);
+}
+
+.daniel {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.daniel img {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.dan {
+  width: 80%;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dax {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-color: rgb(253, 237, 213);
+}
+
+.daf {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.daf h4 {
+  margin-top: -1px;
+}
+
+.dass {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.op img {
+  width: 55%;
+  margin-top: 10px;
+}
+
+.latest {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.laj {
+  width: 60px;
+  cursor: pointer;
+  margin-top: 25px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.laj:hover {
+  background-color: rgb(236, 229, 229);
+}
+
+.aktiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cgh {
+  display: flex;
+  flex-direction: column;
+}
+.cgh b {
+  font-size: 32px;
+}
+
+.upp {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.lop {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.lo {
+  width: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgb(247, 247, 249);
+}
+
+.ins {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.alo {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sur {
+  display: flex;
+  flex-direction: column;
+}
+.sur p {
+  margin-top: 4px;
+  color: rgb(111, 118, 126);
+  font-size: 14px;
+}
+
+.dah-0 {
+  width: 90%;
+  height: 90%;
+}
+
+.quit {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.qui {
+  display: flex;
+  gap: 50px;
+}
+.qui p {
+  color: rgb(123, 123, 123);
+}
+
+.op img {
+  width: 100%;
+  margin-top: 140px;
+  margin-left: 30px;
+}
+
+.pler {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.race {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  border-radius: 20px;
+  background-color: rgb(244, 235, 235);
+}
+
+.re {
+  width: 100%;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.oplo img {
+  width: 60%;
+}
+
+.te {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.yu {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(249, 137, 107);
+}
+
+.rel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.yuu {
+  width: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.abs {
+  width: 30px;
+  position: absolute;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
+.abs img {
+  width: 100%;
+}
+
+.abs-0 {
+  width: 30px;
+  position: absolute;
+  height: 30px;
+  display: flex;
+  z-index: 1;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
+.abs-0 img {
+  width: 100%;
+}
+
+.abs-1 {
+  width: 30px;
+  position: absolute;
+  height: 30px;
+  display: flex;
+  z-index: 4;
+  margin-left: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+}
+.abs-1 img {
+  width: 100%;
+}
+
+.abd {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 136, 146);
+  border-radius: 50%;
+}
+.abd b {
+  color: rgb(254, 93, 108);
+}
+
+.lup {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(175, 168, 227);
+}
+
+.new {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 40px;
+}
+
+.cvb {
+  margin-top: 20px;
+}
+
+.bte {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jkop {
+  margin-top: 10px;
+}
+
+.yash {
+  display: flex;
+  flex-direction: column;
+}
+.yash p {
+  color: rgb(80, 223, 178);
+}/*# sourceMappingURL=main.css.map */
